@@ -148,7 +148,6 @@ body {
   color: var(--ocean);
 }
 .underline::after {
-  bottom: 0;
   right: 0;
   display: block;
   width: 100%;
@@ -157,7 +156,7 @@ body {
   position: absolute;
   content: "";
   background-color: var(--ocean);
-  margin-bottom: -24px;
+  bottom: -24px;
 }
 /* Contact */
 
