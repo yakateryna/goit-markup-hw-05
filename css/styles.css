@@ -714,7 +714,7 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%) scale(1);
-  transition: 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 .modal-close-btn {
@@ -734,6 +734,6 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
-.backdrop .is-hidden .modal {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
