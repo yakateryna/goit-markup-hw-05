@@ -96,7 +96,7 @@ body {
   display: flex;
 }
 
-/*---------------------------------------Logo--------------------------------------*/
+/*-----------------------------------Logo----------------------------------*/
 
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -116,7 +116,7 @@ body {
   color: var(--cloud);
 }
 
-/*--------------------------------Menu----------------------------------------------*/
+/*------------------------------Menu----------------------------------------------*/
 .menu-list {
   display: flex;
   gap: 40px;
@@ -697,11 +697,11 @@ body {
   background-color: var(--navy-blue-modal);
   transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
 }
-/* .modal-close-icon {
-  position: absolute;
+.modal-close-icon {
+  /* position: absolute;
   align-items: center;
-  justify-content: center;
-} */
+  justify-content: center; */
+}
 .modal {
   width: 408px;
   min-height: 576px;
