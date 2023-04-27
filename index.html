@@ -577,41 +577,48 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label class="modal-label"
-            ><span>Name</span>
+          <div class="modal-field">
+            <label class="modal-label"><span>Name</span></label>
             <input
               type="text"
               name="user-name"
+              id="user-name"
               class="modal-input"
-              placeholder="Enter name"
-          /></label>
-          <label class="modal-label"
-            ><span>Phone</span>
+              placeholder="Volodymyr Koniukh"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-label"><span>Phone</span></label>
             <input
               type="tel"
               name="user-tel"
+              id="user-tel"
               class="modal-input"
-              placeholder="Enter phone"
+              placeholder="+380 (93) 443-64-35"
               required
-              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-          /></label>
-          <label class="modal-label"
-            ><span>Email</span>
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-label"><span>Email</span></label>
             <input
               type="email"
               name="user-email"
+              id="user-email"
               class="modal-input"
-              placeholder="Enter email"
-          /></label>
-          <label class="modal-label"
-            ><span>Comment</span>
+              placeholder="volodymyrkoniukh@gmail.com"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-label"><span>Comment</span></label>
             <input
               type="text"
               name="user-comment"
+              id="user-comment"
               class="modal-input-comment"
               placeholder="Text input"
-          /></label>
-          <button type="submit" class="backrop-button">Send</button>
+            />
+          </div>
+          <button type="submit" class="backrop-button">"""""Send"""""</button>
         </form>
       </div>
     </div>
