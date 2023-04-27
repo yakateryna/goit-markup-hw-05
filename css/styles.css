@@ -781,14 +781,23 @@ body {
   width: 100%;
   height: 40px;
   border: 1px solid var(--navy-blue);
+  outline: transparent;
   border-radius: 4px;
+}
+.modal-input:focus {
+  border-color: var(--iris);
+}
+.modal-input:focus + .modal-icon {
+  fill: var(--iris);
 }
 .modal-input-comment {
   width: 100%;
   height: 120px;
   border: 1px solid var(--navy-blue);
+  outline: transparent;
   border-radius: 4px;
 }
+
 .backrop-button {
   border: none;
   font-family: inherit;
