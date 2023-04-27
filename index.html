@@ -577,32 +577,42 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <input
-            type="text"
-            name="user-name"
-            class="modal-input"
-            placeholder="Enter name"
-          />
-          <input
-            type="text"
-            name="user-tel"
-            class="modal-input"
-            placeholder="Enter phone"
-          />
-          <input
-            type="text"
-            name="user-email"
-            class="modal-input"
-            placeholder="Enter email"
-          />
-          <input
-            type="text"
-            name="user-comment"
-            class="modal-input-comment"
-            placeholder="Text input"
-          />
+          <label class="modal-label"
+            ><span>Name</span>
+            <input
+              type="text"
+              name="user-name"
+              class="modal-input"
+              placeholder="Enter name"
+          /></label>
+          <label class="modal-label"
+            ><span>Phone</span>
+            <input
+              type="tel"
+              name="user-tel"
+              class="modal-input"
+              placeholder="Enter phone"
+              required
+              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+          /></label>
+          <label class="modal-label"
+            ><span>Email</span>
+            <input
+              type="email"
+              name="user-email"
+              class="modal-input"
+              placeholder="Enter email"
+          /></label>
+          <label class="modal-label"
+            ><span>Comment</span>
+            <input
+              type="text"
+              name="user-comment"
+              class="modal-input-comment"
+              placeholder="Text input"
+          /></label>
+          <button type="submit" class="backrop-button">Send</button>
         </form>
-        <button type="button" class="backrop-button">Send</button>
       </div>
     </div>
 
