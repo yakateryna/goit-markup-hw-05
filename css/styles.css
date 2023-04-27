@@ -696,17 +696,12 @@ body {
   background-color: var(--navy-blue-modal);
   transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
 }
-.modal-close-icon {
-  /* position: absolute;
-  align-items: center;
-  justify-content: center; */
-}
 .modal {
+  position: relative;
   width: 408px;
   min-height: 576px;
   background-color: var(--white);
   border-radius: 4px;
-  position: absolute;
   top: 50%;
   left: 50%;
   padding: 8px;
@@ -717,6 +712,7 @@ body {
 }
 
 .modal-close-btn {
+  position: absolute;
   top: 24px;
   right: 24px;
   display: block;
@@ -724,8 +720,17 @@ body {
   width: 24px;
   height: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--cornflower);
   border-radius: 50%;
+  /* visibility: hidden; */
+}
+.modal-close-icon {
+  position: absolute;
+  top: 14%;
+  left: auto;
+  transform: translate(-50%, 50%);
+  fill: var(--navy-blue);
+  width: 8px;
+  height: 8px;
 }
 
 .is-hidden {
@@ -735,4 +740,9 @@ body {
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
+}
+.modal-close-icon {
+  /* position: absolute;
+  align-items: center;
+  justify-content: center; */
 }
