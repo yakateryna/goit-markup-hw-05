@@ -725,8 +725,7 @@ body {
 }
 .modal-close-icon {
   position: absolute;
-  top: 14%;
-  left: auto;
+  top: 15%;
   transform: translate(-50%, 50%);
   fill: var(--navy-blue);
   width: 8px;
